@@ -1,0 +1,269 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+/*---------------------------------------------Top part ---------------------------------------------------*/
+
+.top-container{
+  margin: 0;
+  background-color: #e3dedb;
+  position: relative;
+  padding-bottom: 200px;
+}
+
+/*----------------------------------------------navigation------------------------------------------------*/
+
+.navigation{
+  position: relative;
+  margin-left: 6rem;
+}
+
+.vertical{
+  border-left: 2px solid #6c5d53;
+  height: 15px;
+  display: inline-block;
+}
+
+.navigation h1{
+  position: absolute;
+  font-size: 1.5rem;
+  margin: 3.3rem 0.1rem;
+  font-family: 'Noto Sans', sans-serif;
+  color: #6c5d53;
+}
+
+.nav-link{
+  display: inline-block;
+  margin-top: 3rem;
+  margin-left: 10px;
+  font-size: 19px;
+  color: #6c5d53;
+}
+
+.nav-link:hover{
+  color: black;
+}
+
+.nav-link:active{
+  text-decoration: underline;
+}
+
+.nav-links{
+  margin-left: 50em;
+}
+
+/*-------------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------top heading & about ------------------------------------------*/
+
+.heading h1{
+  margin-top: 100px;
+  margin-left: 210px;
+  font-size: 3.8rem;
+  color: #6c5d53;
+  font-family: 'Playfair Display', serif;
+}
+
+
+.head-margin{
+  width:70%;
+  margin-left: 210px;
+  background-color: #6c5d53 !important;
+  color: #6c5d53 !important;
+  border: solid 1px #6c5d53 !important;
+  height: 2px !important;
+  border-radius: 3px !important;
+}
+
+.head-vertical{
+  margin-left: 210px;
+  border-left: solid 3px #6c5d53 !important;
+  height: 150px !important;
+  border-radius: 3px !important;
+}
+
+.heading-about p{
+  position: absolute;
+font-size: 1.3em;
+margin-left: 200px;
+color: #6c5d53;
+font-family: 'Raleway', sans-serif;
+top: 19rem;
+left: 3rem;
+}
+
+.heading-about h3{
+  position: absolute;
+font-size: 1.3em;
+margin-left: 200px;
+color: #6c5d53;
+font-family: 'Raleway', sans-serif;
+top: 28rem;
+left: 3rem;
+}
+
+/*-----------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Main skills--------------------------------------------------*/
+
+.middle-container{
+  background-color: #241f1c;
+  color: #e3dedb;
+  position: relative;
+  padding-bottom: 190px;
+}
+
+.about-head{
+  position: absolute;
+  font-family: 'Playfair Display', serif;
+  left: 7.3em;
+  top: 1em;
+  font-size: 4em;
+  letter-spacing: 3px;
+}
+
+.about-margin{
+  position: absolute;
+  border-bottom: solid 3px #e3dedb !important;
+  height: 30px !important;
+  width: 35%;
+  top: 7.9rem;
+  left: 27rem;
+}
+
+.img{
+  height: 100%;
+  width: 190px;
+  border-radius: 50px;
+}
+
+.spec-head{
+  font-size: 1.9em;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.first-head{
+  position: absolute;
+  top: 13rem;
+  left: 5rem;
+}
+
+.spec1-margin{
+  position: absolute;
+  border-bottom: solid 1px #e3dedb !important;
+  height: 30px !important;
+  width: 14.5%;
+  top: 13.9rem;
+  left: 10rem;
+}
+
+.first-img{
+  margin-top: 20rem;
+  margin-left: 5rem;
+}
+
+.first-para{
+  padding: 27px;
+  font-size: 1rem;
+  width: 59%;
+  position: absolute;
+  left: 21rem;
+  top: 20rem;
+  border: 1px solid  #e3dedb ;
+  border-right: 0 !important;
+}
+
+.second-head{
+  position: absolute;
+  top: 40rem;
+  left: 53rem;
+}
+
+.spec2-margin{
+  position: absolute;
+  border-bottom: solid 1px #e3dedb !important;
+  height: 30px !important;
+  width: 11%;
+  top: 41rem;
+  left: 60rem;
+}
+
+.second-img{
+  margin-top: 15rem;
+  margin-left: 60rem;
+}
+
+.second-para{
+  padding: 25px;
+  font-size: 1rem;
+  width: 59%;
+  position: absolute;
+  left: 10rem;
+  top: 45rem;
+  border: 1px solid  #e3dedb ;
+  border-left: 0 !important;
+}
+
+/*----------------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------Sub texts-----------------------------------------------------*/
+
+.bottom-container{
+  background-color: #e3dedb;
+  color: #6c5d53;
+}
+
+.bottom{
+  position: relative;
+}
+
+.base-head{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bolder;
+  padding-top: 2em;
+  padding-left: 17em;
+}
+
+.base-margin{
+  border-bottom: solid 3px #6c5d53 !important;
+  height: 10px !important;
+  width: 30%;
+  margin-left: 26.9em;
+}
+
+.base-para{
+  width: 50%;
+  color: inherit;
+  font-weight: bold;
+  margin-left: 21.9em;
+  margin-top: 1em;
+}
+
+.bottom-container hr{
+  background-color:  #6c5d53;
+  height: 1px;
+  width: 95%;
+  margin-top: 3rem;
+  margin-left: 1.9em;
+}
+
+.contact-links{
+ margin-left: 31em;
+ margin-top: 1.9rem;
+ margin-bottom: 1.5rem;
+}
+
+.contact-links a{
+  font-family: 'Noto Sans', sans-serif;
+  color: #6c5d53 !important;
+  font-weight: bold;
+  margin-left: 1.9rem;
+}
+
+.copyright{
+  font-family: 'Noto Sans', sans-serif;
+  margin-top: 3rem;
+  margin-left: 31.6rem;
+  font-weight: bolder;
+}
