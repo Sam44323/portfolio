@@ -11,10 +11,19 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({
   extended: true
 }));
+
 app.use(express.static("public"));
 
 app.get("/", function(req, res){
   res.render("home");
+});
+
+app.get("/web", function(req, res){
+res.render("web");
+});
+
+app.get("/design", function(req, res){
+  res.render("design");
 });
 
 app.listen(3000, function(req, res){

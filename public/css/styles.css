@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   margin: 0;
   padding: 0;
@@ -9,7 +13,7 @@ body{
   margin: 0;
   background-color: #e3dedb;
   position: relative;
-  padding-bottom: 200px;
+  padding-bottom: 60px;
 }
 
 /*----------------------------------------------navigation------------------------------------------------*/
@@ -45,9 +49,6 @@ body{
   color: black;
 }
 
-.nav-link:active{
-  text-decoration: underline;
-}
 
 .nav-links{
   margin-left: 50em;
@@ -65,6 +66,31 @@ body{
   font-family: 'Playfair Display', serif;
 }
 
+.icon{
+  position: absolute;
+  color: #e3dedb;
+  margin-left: 28em;
+  margin-top: 1em;
+  font-size: 40px;
+}
+
+.icon:hover{
+  color: grey;
+  font-weight: bolder;
+}
+
+.icon-bot{
+  position: absolute;
+  color: #6c5d53;
+  margin-left: 28em;
+  margin-top: 0.1em;
+  font-size: 40px;
+}
+
+.icon-bot:hover{
+font-weight: bolder;
+color: grey;
+}
 
 .head-margin{
   width:70%;
@@ -84,7 +110,7 @@ body{
 }
 
 .heading-about p{
-  position: absolute;
+position: absolute;
 font-size: 1.3em;
 margin-left: 200px;
 color: #6c5d53;
@@ -266,4 +292,752 @@ left: 3rem;
   margin-top: 3rem;
   margin-left: 31.6rem;
   font-weight: bolder;
+}
+
+/*--------------------------------------------------------Web-Dev page--------------------------------------------*/
+
+.web-container{
+  margin: 0;
+  background-color: #e3dedb;
+  padding-bottom: 30px;
+}
+
+/*--------------------------------------------------------Content main-----------------------------------------*/
+
+.main-content{
+  position: relative;
+  background-color: #241f1c;
+  color:  #e3dedb;
+  padding-bottom: 3em;
+}
+
+.main-margin{
+  border-bottom: solid 1px #e3dedb !important;
+  width: 30%;
+}
+
+.main-margin-1{
+  margin-left: 3.7em;
+  padding-top: 2.7em;
+  width: 6%;
+}
+
+.main-margin-2{
+  margin-left: 11em;
+  padding-top: 0.5em;
+  width: 20%;
+}
+
+.main-cont-head{
+  font-family: 'Raleway', sans-serif;
+  padding-top: 0.1em;
+  padding-left: 1.5em;
+}
+
+.sub-head-1{
+  font-size: 2em;
+  margin-top: 2em;
+  margin-left: 27em;
+  font-family: 'Playfair Display', serif;
+}
+
+.image-content{
+  height: 100%;
+  width:600px;
+  border-radius: 10px;
+}
+
+.cont-image-1{
+  margin-top: 2em;
+  margin-left: 2.4em;
+}
+
+.main-vert-1{
+  position: absolute;
+  border-left: 2px solid #e3dedb;
+  height: 19.5em;
+  display: inline-block;
+  left: 43em;
+  top: 16em;
+}
+
+.main-para-1{
+  position: absolute;
+  width: 40%;
+  left: 37em;
+  top: 13em;
+  font-size: 19px;
+}
+
+.first-link{
+  font-family: 'Nato sans', serif;
+  color: #e3dedb;
+  position: absolute;
+  top: 26em;
+  left: 45em;
+  font-weight: bold;
+}
+
+.first-link:hover{
+  text-decoration: none;
+  color: black;
+}
+
+.first-mar{
+  background-color: #e3dedb;
+  height: 1px;
+  width: 50%;
+  margin-top: 90px;
+}
+
+/*----------------------------------------------------------------------------*/
+
+.sub-head-2{
+  float: left;
+  font-size: 2em;
+  font-family: 'Playfair Display', serif;
+  margin-left: 4em;
+  margin-top: 4.8em;
+}
+
+.cont-image-2{
+  float: right;
+  margin-right: 3em;
+  margin-top: 15em;
+}
+
+.main-vert-2{
+  position: absolute;
+  border-left: 2px solid #e3dedb;
+  height: 19em;
+  display: inline-block;
+  left: 35em;
+  top: 57em;
+}
+
+.main-para-2{
+  position: absolute;
+  width: 39%;
+  left: 3em;
+  top: 47.4em;
+  font-size: 19px;
+}
+
+.second-link{
+  font-family: 'Nato sans', serif;
+  color: #e3dedb;
+  position: absolute;
+  top: 63em;
+  left: 4em;
+  font-weight: bold;
+}
+
+.second-link:hover{
+  text-decoration: none;
+  color: black;
+}
+
+.second-mar{
+  background-color: #e3dedb;
+  height: 1px;
+  width: 50%;
+  margin-top: 45em;
+}
+
+.bot-cot{
+  background-color: #e3dedb;
+  color: #6c5d53;
+}
+
+.cont-links{
+  padding-top: 3em;
+  margin-left: 31em;
+  margin-bottom: 1.5rem;
+}
+
+.cont-links a{
+  font-family: 'Noto Sans', sans-serif;
+  color: #6c5d53 !important;
+  font-weight: bold;
+  margin-left: 1.9rem;
+}
+
+.cont-links a:hover{
+  text-decoration: none;
+  color: grey;
+}
+
+.copy{
+  font-family: 'Noto Sans', sans-serif;
+  padding-top: 1.9em;
+  margin-left: 31.8em;
+  font-weight: bolder;
+}
+
+.main-bot-cot{
+  margin-left: 15em !important;
+}
+
+.main-bot-cot:hover{
+  color: grey !important;
+}
+/*--------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------Design Page-------------------------------------------*/
+
+/*-----------------------------------------------------1-----------------------------------------------*/
+.design-margin-1{
+  width: 16% !important;
+  margin-left: 15em !important;
+}
+
+.logo-img-1{
+  width: 600px !important;
+}
+
+.logo-vert-1{
+  height: 13em !important;
+}
+
+.log-1{
+top: 30px !important;
+}
+
+.logo-mar-1{
+  width: 20% !important;
+  margin-top: 9em !important;
+}
+
+.logo-para-1{
+  width: 100% !important;
+  font-size: 1.5em !important;
+  left: 30em !important;
+}
+ /*--------------------------------------------------------2---------------------------------------------*/
+
+.log-1{
+  top: 30px !important;
+}
+
+ .logo-para-2{
+   top: 36em !important;
+   font-size: 1.5em !important;
+    left: 4em !important;
+ }
+
+ .logo-vert-2{
+   top: 50em !important;
+   height: 13em !important;
+   left: 44em !important;
+ }
+
+ .logo-img-2{
+   width: 30% !important;
+   margin-left: 21em;
+   margin-top: 3em;
+ }
+
+ .logo-main-2{
+   margin-left: 7em !important;
+   margin-top: 4.9em !important;
+ }
+
+ .logo-mar-2{
+   margin-top: 1px ;
+   width: 20% ;
+   background-color: #e3dedb;
+ }
+
+ .logo-image-3{
+   margin-left: 3rem !important;
+   height: 700px !important;
+   width: 500px !important;
+ }
+
+.logo-vert-3{
+  top: 83em !important;
+  height: 44em !important;
+  left: 44em !important;
+}
+
+.logo-mar-3{
+  width: 20%;
+}
+
+.bottom-sec{
+  background-color: #e3dedb;
+  color: #6c5d53;
+  padding-bottom: 0.1em;
+}
+
+.ct-links{
+  margin-left: 29em;
+  padding-top: 3em;
+}
+
+.ct-links a{
+  font-family: 'Noto Sans', sans-serif;
+  color: #6c5d53;
+  margin-left: 3em;
+  font-weight: bold;
+}
+
+.ct-links a:hover{
+  color: grey;
+  text-decoration: none;
+}
+
+.des-bot{
+  margin-left: 16em !important;
+  margin-top: 1px;
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------------Responsiveness----------------------------------------*/
+
+@media (max-width: 768px){
+
+/*-----------------------------------------------------Home---------------------------------------------*/
+  .vertical{
+    display: none;
+  }
+
+  .navigation{
+    position: relative;
+    margin-left: 1em;
+  }
+
+  .navigation h1{
+    position: absolute;
+    font-size: 1.5rem;
+    margin-top: 1.9em;
+    margin-left: 0.5em;
+    font-family: 'Noto Sans', sans-serif;
+    color: #6c5d53;
+  }
+
+
+  .icon{
+    position: absolute;
+    color: #e3dedb;
+    margin-left: 1em;
+    margin-top: 1em;
+    font-size: 8px;
+  }
+
+  .nav-links{
+    font-size: 0.8rem;
+    color: #6c5d53;
+    margin-left: 0.1em;
+    padding-top: 3em;
+    padding-left: none;
+  }
+
+  .nav-link{
+    margin-top: 3rem;
+    margin-left: 0px;
+    font-size: 15px;
+    color: #6c5d53;
+  }
+
+  .heading h1{
+    margin-top: 100px;
+    margin-left: 60px;
+    font-size: 1.9rem;
+    color: #6c5d53;
+    font-family: 'Playfair Display', serif;
+  }
+
+  .head-margin{
+    width:60%;
+    margin-left: 60px;
+    background-color: #6c5d53 !important;
+    color: #6c5d53 !important;
+    border: solid 1px #6c5d53 !important;
+    height: 2px !important;
+    border-radius: 3px !important;
+  }
+
+  .head-vertical{
+    margin-left: 60px;
+    border-left: solid 3px #6c5d53 !important;
+    height: 150px !important;
+    border-radius: 3px !important;
+  }
+
+.heading-about p{
+  position: absolute;
+  font-size: 0.7em;
+  width: 70%;
+  margin-left: 20px;
+  color: #6c5d53;
+  font-family: 'Raleway', sans-serif;
+  top: 19rem;
+  left: 3rem;
+  }
+
+  .heading-about h3{
+  position: absolute;
+  font-size: 1em;
+  margin-left: 70px;
+  color: #6c5d53;
+  font-family: 'Raleway', sans-serif;
+  top: 28rem;
+  left: 1rem;;
+  }
+  .icon{
+    position: absolute;
+    color: #e3dedb;
+    margin-left: 360px;
+    margin-top: 1em;
+    font-size: 21px;
+  }
+
+  .middle-container{
+    background-color: #241f1c;
+    color: #e3dedb;
+    position: relative;
+    padding-bottom: 400px;
+  }
+
+  .about-head{
+    left: 110px;
+    top: 50px;
+    font-size: 1.7em;
+  }
+
+  .about-margin{
+    position: absolute;
+    border-bottom: solid 1px #e3dedb !important;
+    height: 30px !important;
+    width: 46%;
+    top: 65px;
+    left: 110px;
+  }
+
+  .img{
+    height: 100%;
+    width: 90px;
+    border-radius: 10px;
+  }
+
+  .spec-head{
+    font-size: 1.9em;
+    font-family: 'Noto Sans', sans-serif;
+  }
+
+  .first-head{
+    position: absolute;
+    top: 10rem;
+    left: 5rem;
+  }
+
+  .spec1-margin{
+    position: absolute;
+    border-bottom: solid 1px #e3dedb !important;
+    height: 30px !important;
+    width: 45%;
+    top: 11rem;
+    left: 10rem;
+  }
+
+  .first-img{
+    margin-top: 15rem;
+    margin-left: 10.5rem;
+  }
+
+  .first-para{
+    padding: 27px;
+    font-size: 11px;
+    width: 70%;
+    position: absolute;
+    left: 4rem;
+    top: 23rem;
+    border: 1px solid  #e3dedb ;
+    border-right: 0 !important;
+    border-left: 0 !important;
+  }
+
+  .second-head{
+    position: absolute;
+    top: 43rem;
+    left: 5rem;
+    font-size: 1.7em !important;
+  }
+
+  .spec2-margin{
+    position: absolute;
+    border-bottom: solid 1px #e3dedb !important;
+    height: 30px !important;
+    width: 33%;
+    top: 43.7rem;
+    left: 11.9rem;
+  }
+
+  .second-img{
+    margin-top: 28rem;
+    margin-left: 10.3rem;
+  }
+
+  .second-para{
+    padding: 25px;
+    font-size: 11px;
+    width: 70%;
+    position: absolute;
+    left: 4rem;
+    top: 55rem;
+    border: 1px solid  #e3dedb ;
+    border-right: 0 !important;
+    border-left: 0 !important;
+  }
+
+  .base-head{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bolder;
+    padding-top: 2em;
+    padding-left: 8rem;
+    font-size: 16px;
+  }
+
+  .base-margin{
+    border-bottom: solid 1px #6c5d53 !important;
+    height: 10px !important;
+    width: 40%;
+    margin-left: 8rem;
+  }
+
+  .base-para{
+    width: 70%;
+    color: inherit;
+    font-weight: bold;
+    margin-left: 5rem;
+    margin-top: 1em;
+    font-size: 13px;
+  }
+
+  .bottom-container hr{
+    background-color:  #6c5d53;
+    height: 1px;
+    width: 90%;
+    margin-top: 3rem;
+    margin-left: 1.9em;
+  }
+
+  .ct-links{
+    margin-left: 1.9em;
+    padding-top: 3em;
+  }
+
+  .ct-links a{
+    font-family: 'Noto Sans', sans-serif;
+    color: #6c5d53;
+    margin-left: 3em;
+    font-weight: bold;
+  }
+
+  .copyright{
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    font-weight: bolder;
+  }
+
+  .icon-bot{
+    position: absolute;
+    color: #6c5d53;
+    margin-left:16em;
+    margin-top: 0.1em;
+    font-size: 23px;
+  }
+
+/*---------------------------------------------Web-dev--------------------------------------------------*/
+.main-margin-1{
+display: none;
+}
+
+.main-cont-head{
+    font-family: 'Raleway', sans-serif;
+    padding-top: 1.8em;
+    padding-left: 3.5em;
+    font-size: 25px;
+}
+
+.main-margin-2{
+  margin-left: 11em;
+  padding-top: 0.5em;
+  width: 37%;
+}
+
+.sub-head-1{
+  font-size: 25px;
+  margin-left: 5.8rem;
+  font-family: 'Playfair Display', serif;
+}
+
+.image-content{
+  height: 100%;
+  width:300px;
+  border-radius: 10px;
+}
+
+.cont-image-1{
+  margin-top: 2em;
+  margin-left: 2.4em;
+}
+
+.main-vert-1{
+  display: none;
+}
+
+.main-para-1{
+  position: absolute;
+  width: 80%;
+  left: 2.4em;
+  top: 24em;
+  font-size: 17px;
+}
+
+.first-link{
+  font-family: 'Nato sans', serif;
+  color: #e3dedb;
+  position: absolute;
+  top: 38em;
+  left: 2.4em;
+  font-weight: bold;
+}
+
+.first-link:hover{
+  text-decoration: none;
+  color: black;
+}
+
+.first-mar{
+  background-color: #e3dedb;
+  height: 1px;
+  width: 50%;
+  margin-top: 21em;
+}
+
+/*----------------------------------------------------------------------------*/
+
+.sub-head-2{
+  font-size: 25px;
+  font-family: 'Playfair Display', serif;
+  margin-left: 4em;
+  margin-top: 2em;
+}
+
+.cont-image-2{
+  margin-top: 2.8em;
+  margin-left: 1em;
+}
+
+.main-vert-2{
+  display: none;
+}
+
+.main-para-2{
+  position: absolute;
+  width: 80%;
+  left: 2.8em;
+  top: 60em;
+  font-size: 17px;
+}
+
+.second-link{
+  font-family: 'Nato sans', serif;
+  color: #e3dedb;
+  position: absolute;
+  top: 73em;
+  left: 3em;
+  font-weight: bold;
+}
+
+.second-link:hover{
+  text-decoration: none;
+  color: black;
+}
+
+.second-mar{
+  background-color: #e3dedb;
+  height: 1px;
+  width: 50%;
+  margin-top: 36em;
+}
+
+.copy{
+  font-family: 'Noto Sans', sans-serif;
+  margin-top: 3rem;
+  margin-left: 5rem;
+  font-weight: bolder;
+}
+
+/*-------------------------------------------------Design------------------------------------------------*/
+.design-margin-1{
+  width: 36% !important;
+  margin-left: 11.9em !important;
+}
+
+.logo-img-1{
+  width: 400px !important;
+}
+
+.logo-vert-1{
+  display: none;
+}
+
+.log-1{
+margin-bottom: none !important;
+margin-left: 4.5em;
+}
+
+.logo-mar-1{
+  width: 50% !important;
+  margin-top: 4em !important;
+}
+
+ /*--------------------------------------------------------2---------------------------------------------*/
+
+
+ .logo-vert-2{
+   display: none;
+ }
+
+ .logo-img-2{
+   width: 70% !important;
+   margin-left: 4em;
+   margin-top: 0.1em;
+ }
+
+ .logo-main-2{
+   margin-left: 5em !important;
+   margin-top: 1.9em !important;
+ }
+
+ .logo-mar-2{
+   width: 50% ;
+   background-color: #e3dedb;
+ }
+
+ .logo-image-3{
+   margin-top: 3rem !important;
+   margin-left: 3rem !important;
+   height: 500px !important;
+   width: 300px !important;
+ }
+
+.logo-vert-3{
+  display: none;
+}
+
+.logo-mar-3{
+  width: 50%;
+  margin-top: 5em !important;
+}
+
+.des-bot{
+  margin-left: 14.9em !important;
+  margin-top: 3em !important;
+}
+
 }
