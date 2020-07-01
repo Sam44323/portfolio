@@ -13,7 +13,7 @@ body{
   margin: 0;
   background-color: #e3dedb;
   position: relative;
-  padding-bottom: 60px;
+  padding-bottom: 300px;
 }
 
 /*----------------------------------------------navigation------------------------------------------------*/
@@ -601,6 +601,10 @@ top: 30px !important;
   .vertical{
     display: none;
   }
+
+.top-container{
+  padding-bottom: 60px;
+}
 
   .navigation{
     position: relative;
