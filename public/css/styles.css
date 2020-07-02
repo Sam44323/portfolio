@@ -595,7 +595,7 @@ top: 30px !important;
 
 /*------------------------------------------------Responsiveness----------------------------------------*/
 
-@media (max-width: 768px){
+@media (min-width: 468px) and (max-width: 1080px){
 
 /*-----------------------------------------------------Home---------------------------------------------*/
   .vertical{
@@ -692,7 +692,7 @@ top: 30px !important;
   .icon{
     position: absolute;
     color: #e3dedb;
-    margin-left: 360px;
+    margin-left: 900px;
     margin-top: 1em;
     font-size: 21px;
   }
@@ -705,7 +705,7 @@ top: 30px !important;
   }
 
   .about-head{
-    left: 110px;
+    left: 410px;
     top: 50px;
     font-size: 1.7em;
   }
@@ -714,9 +714,9 @@ top: 30px !important;
     position: absolute;
     border-bottom: solid 1px #e3dedb !important;
     height: 30px !important;
-    width: 46%;
+    width: 17%;
     top: 65px;
-    left: 110px;
+    left: 410px;
   }
 
   .img{
@@ -733,29 +733,29 @@ top: 30px !important;
   .first-head{
     position: absolute;
     top: 10rem;
-    left: 5rem;
+    left: 21rem;
   }
 
   .spec1-margin{
     position: absolute;
     border-bottom: solid 1px #e3dedb !important;
     height: 30px !important;
-    width: 45%;
+    width: 21%;
     top: 11rem;
-    left: 10rem;
+    left: 25rem;
   }
 
   .first-img{
     margin-top: 15rem;
-    margin-left: 10.5rem;
+    margin-left: 25rem;
   }
 
   .first-para{
     padding: 27px;
     font-size: 11px;
-    width: 70%;
+    width: 50%;
     position: absolute;
-    left: 4rem;
+    left: 13rem;
     top: 23rem;
     border: 1px solid  #e3dedb ;
     border-right: 0 !important;
@@ -765,7 +765,7 @@ top: 30px !important;
   .second-head{
     position: absolute;
     top: 43rem;
-    left: 5rem;
+    left: 22rem;
     font-size: 1.7em !important;
   }
 
@@ -773,22 +773,22 @@ top: 30px !important;
     position: absolute;
     border-bottom: solid 1px #e3dedb !important;
     height: 30px !important;
-    width: 33%;
+    width: 15%;
     top: 43.7rem;
-    left: 11.9rem;
+    left: 28rem;
   }
 
   .second-img{
     margin-top: 28rem;
-    margin-left: 10.3rem;
+    margin-left: 25rem;
   }
 
   .second-para{
     padding: 25px;
     font-size: 11px;
-    width: 70%;
+    width: 50%;
     position: absolute;
-    left: 4rem;
+    left: 13rem;
     top: 55rem;
     border: 1px solid  #e3dedb ;
     border-right: 0 !important;
@@ -799,7 +799,7 @@ top: 30px !important;
     font-family: 'Noto Sans', sans-serif;
     font-weight: bolder;
     padding-top: 2em;
-    padding-left: 8rem;
+    padding-left: 25rem;
     font-size: 16px;
   }
 
@@ -807,14 +807,14 @@ top: 30px !important;
     border-bottom: solid 1px #6c5d53 !important;
     height: 10px !important;
     width: 40%;
-    margin-left: 8rem;
+    margin-left: 17rem;
   }
 
   .base-para{
-    width: 70%;
+    width: 50%;
     color: inherit;
     font-weight: bold;
-    margin-left: 5rem;
+    margin-left: 15rem;
     margin-top: 1em;
     font-size: 13px;
   }
@@ -828,7 +828,7 @@ top: 30px !important;
   }
 
   .ct-links{
-    margin-left: 1.9em;
+    margin-left: 19em;
     padding-top: 3em;
   }
 
@@ -842,14 +842,14 @@ top: 30px !important;
   .copyright{
     font-family: 'Noto Sans', sans-serif;
     margin-top: 3rem;
-    margin-left: 5rem;
+    margin-left: 22rem;
     font-weight: bolder;
   }
 
   .icon-bot{
     position: absolute;
     color: #6c5d53;
-    margin-left:16em;
+    margin-left:40em;
     margin-top: 0.1em;
     font-size: 23px;
   }
@@ -869,12 +869,12 @@ display: none;
 .main-margin-2{
   margin-left: 11em;
   padding-top: 0.5em;
-  width: 37%;
+  width: 16%;
 }
 
 .sub-head-1{
   font-size: 25px;
-  margin-left: 5.8rem;
+  margin-left: 40rem;
   font-family: 'Playfair Display', serif;
 }
 
@@ -886,7 +886,7 @@ display: none;
 
 .cont-image-1{
   margin-top: 2em;
-  margin-left: 2.4em;
+  margin-left: 5em;
 }
 
 .main-vert-1{
@@ -895,9 +895,9 @@ display: none;
 
 .main-para-1{
   position: absolute;
-  width: 80%;
-  left: 2.4em;
-  top: 24em;
+  width: 45%;
+  left: 28em;
+  top: 13em;
   font-size: 17px;
 }
 
@@ -905,8 +905,8 @@ display: none;
   font-family: 'Nato sans', serif;
   color: #e3dedb;
   position: absolute;
-  top: 38em;
-  left: 2.4em;
+  top: 25em;
+  left: 45em;
   font-weight: bold;
 }
 
@@ -918,8 +918,9 @@ display: none;
 .first-mar{
   background-color: #e3dedb;
   height: 1px;
-  width: 50%;
-  margin-top: 21em;
+  width: 30%;
+  margin-top: 11em;
+  margin-bottom: 4rem;
 }
 
 /*----------------------------------------------------------------------------*/
@@ -927,24 +928,23 @@ display: none;
 .sub-head-2{
   font-size: 25px;
   font-family: 'Playfair Display', serif;
-  margin-left: 4em;
+  margin-left: 5em;
   margin-top: 2em;
 }
 
 .cont-image-2{
-  margin-top: 2.8em;
-  margin-left: 1em;
+  margin-top: 8em;
 }
 
 .main-vert-2{
-  display: none;
+display: none;
 }
 
 .main-para-2{
   position: absolute;
-  width: 80%;
+  width: 45%;
   left: 2.8em;
-  top: 60em;
+  top: 43em;
   font-size: 17px;
 }
 
@@ -952,8 +952,8 @@ display: none;
   font-family: 'Nato sans', serif;
   color: #e3dedb;
   position: absolute;
-  top: 73em;
-  left: 3em;
+  top: 53em;
+  left: 23em;
   font-weight: bold;
 }
 
@@ -965,25 +965,25 @@ display: none;
 .second-mar{
   background-color: #e3dedb;
   height: 1px;
-  width: 50%;
-  margin-top: 36em;
+  width: 30%;
+  margin-top: 29em;
 }
 
 .copy{
   font-family: 'Noto Sans', sans-serif;
   margin-top: 3rem;
-  margin-left: 5rem;
+  margin-left: 22rem;
   font-weight: bolder;
 }
 
 /*-------------------------------------------------Design------------------------------------------------*/
 .design-margin-1{
-  width: 36% !important;
+  width: 15% !important;
   margin-left: 11.9em !important;
 }
 
 .logo-img-1{
-  width: 400px !important;
+  margin-left: 11rem;
 }
 
 .logo-vert-1{
@@ -992,11 +992,11 @@ display: none;
 
 .log-1{
 margin-bottom: none !important;
-margin-left: 4.5em;
+margin-left: 16em;
 }
 
 .logo-mar-1{
-  width: 50% !important;
+  width: 30% !important;
   margin-top: 4em !important;
 }
 
@@ -1008,24 +1008,27 @@ margin-left: 4.5em;
  }
 
  .logo-img-2{
-   width: 70% !important;
-   margin-left: 4em;
-   margin-top: 0.1em;
+   position: relative;
+   width: 50% !important;
+   margin-left: 17em;
+   margin-bottom: none;
  }
 
  .logo-main-2{
-   margin-left: 5em !important;
+   position: absolute;
+   margin-left: 17em !important;
    margin-top: 1.9em !important;
  }
 
  .logo-mar-2{
-   width: 50% ;
+   width: 30% ;
    background-color: #e3dedb;
+   margin-top: 1rem;
  }
 
  .logo-image-3{
-   margin-top: 3rem !important;
-   margin-left: 3rem !important;
+   margin-top: 5rem !important;
+   margin-left: 21rem !important;
    height: 500px !important;
    width: 300px !important;
  }
@@ -1035,13 +1038,13 @@ margin-left: 4.5em;
 }
 
 .logo-mar-3{
-  width: 50%;
-  margin-top: 5em !important;
+  width: 30%;
+  margin-top: 7em !important;
 }
 
 .des-bot{
-  margin-left: 14.9em !important;
-  margin-top: 3em !important;
+  margin-left: 21em !important;
+  margin-top: none !important;
 }
 
 }
